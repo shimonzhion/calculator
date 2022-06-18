@@ -1,6 +1,7 @@
 let screen = document.getElementById("screen");
 let buttons = Array.from(document.getElementsByClassName("btn"));
-buttons.map((button) => {
+
+buttons.forEach((button) => {
   button.addEventListener("click", (e) => {
     switch (e.target.innerText) {
         case 'x':
@@ -24,6 +25,3 @@ buttons.map((button) => {
     }
   });
 });
-
-
-
