@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+   background: linear-gradient(rgb(26, 225, 0),rgb(143, 0, 204))
+}
+
+#div_container{
+    display: flex;
+    flex-direction: column;
+}
+
+#screen {
+    background: black;
+    width: 354px;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    color: beige;
+    font-size: 25px;  
+   align-items: center;    
+}
+
+.btn{
+    width: 90px;
+    height: 60px;
+    margin-right: -6px;
+margin-top: -2px;
+background: rgb(202, 202, 202);
+font-size: large;
+}
+
+.btn:hover{
+    background-color: #323330;
+    color: white;
+    transition:  0.5s ease-in-out;
+}
+
+#egual{
+    position: absolute;
+    height: 234px;
+    width: 90px;
+    position: absolute;
+    background: rgb(217, 132, 13);
+    font-size: large;
+    margin-left:4.2px ;
+    margin-top: -2px;
+}
